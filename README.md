@@ -2,19 +2,7 @@
 
 > A fully interactive, browser-based **Classical Cryptography Toolkit** built for the **Network Security** mini project (Final Year ECM 2026-27). No backend required — runs entirely in the browser.
 
----
 
-## 🌐 Live Demo
-
-🔗 [View Live on Netlify](#) *(Deploy karne ke baad link yahan daalo)*
-
----
-
-## 📸 Preview
-
-![Crypto Toolkit Preview](preview.png)
-
----
 
 ## 📋 Project Details
 
