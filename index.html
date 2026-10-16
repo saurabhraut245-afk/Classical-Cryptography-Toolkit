@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classical Cryptography Toolkit | Network Security</title>
+  <meta name="description" content="A comprehensive classical cryptography toolkit implementing Caesar, Monoalphabetic, Playfair, Hill, Vigenere, One-Time Pad, Rail Fence, and Columnar Transposition ciphers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo-box">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-title">CRYPTO TOOLKIT</span>
+        <span class="logo-sub">CLASSICAL CIPHERS</span>
+      </div>
+    </div>
+    <div class="sidebar-badge">
+      <span class="badge-pill">Network Security</span>
+      <span class="badge-pill secondary">Final Year 08</span>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-group-label">SUBSTITUTION CIPHERS</div>
+      <a href="#" class="nav-item active" data-cipher="caesar"><span class="nav-num">01</span>Caesar Cipher</a>
+      <a href="#" class="nav-item" data-cipher="monoalphabetic"><span class="nav-num">02</span>Monoalphabetic</a>
+      <a href="#" class="nav-item" data-cipher="playfair"><span class="nav-num">03</span>Playfair Cipher</a>
+      <a href="#" class="nav-item" data-cipher="hill"><span class="nav-num">04</span>Hill Cipher (Matrix)</a>
+      <a href="#" class="nav-item" data-cipher="vigenere"><span class="nav-num">05</span>Vigenere Cipher</a>
+      <a href="#" class="nav-item" data-cipher="otp"><span class="nav-num">06</span>One-Time Pad (Vernam)</a>
+      <div class="nav-group-label">TRANSPOSITION CIPHERS</div>
+      <a href="#" class="nav-item" data-cipher="railfence"><span class="nav-num">07</span>Rail Fence Cipher</a>
+      <a href="#" class="nav-item" data-cipher="columnar"><span class="nav-num">08</span>Columnar Transposition</a>
+      <div class="nav-group-label">UTILITY MODULES</div>
+      <a href="#" class="nav-item" data-cipher="compare"><span class="nav-num">09</span>Compare Algorithms</a>
+      <a href="#" class="nav-item" data-cipher="encrypt-file"><span class="nav-num">10</span>Encrypt Text File</a>
+      <a href="#" class="nav-item" data-cipher="decrypt-file"><span class="nav-num">11</span>Decrypt Text File</a>
+      <a href="#" class="nav-item" data-cipher="help"><span class="nav-num">12</span>Help &amp; Project Report</a>
+      <a href="#" class="nav-item" data-cipher="exit"><span class="nav-num">13</span>Lock Toolkit / Exit</a>
+    </nav>
+    <div class="sidebar-footer">
+      <button class="sample-btn" id="globalSampleBtn">&#128196; Sample Text</button>
+    </div>
+  </aside>
+  <main class="main-content" id="mainContent">
+    <div id="cipher-panel" class="cipher-panel"></div>
+  </main>
+  <div class="toast" id="toast"></div>
+  <script src="ciphers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
